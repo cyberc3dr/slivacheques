@@ -1,0 +1,12 @@
+[versions]
+kotlin = "2.0.20"
+tdlight = "3.4.0+td.1.8.35"
+
+[libraries]
+tdlight-bom = { module = "it.tdlight:tdlight-java-bom", version.ref = "tdlight" }
+kotlinx-coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"
+logback = "ch.qos.logback:logback-classic:1.5.8"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = "com.github.johnrengelman.shadow:8.1.1"
